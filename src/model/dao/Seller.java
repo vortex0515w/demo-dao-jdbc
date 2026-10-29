@@ -1,0 +1,12 @@
+package model.dao;
+
+import java.util.List;
+
+public interface Seller {
+
+    void insert(model.entities.Seller obj);
+    void update(model.entities.Seller obj);
+    void deleteByID(Integer id);
+    model.entities.Seller findById(Integer id);
+    List<model.entities.Seller> findAll();
+}
