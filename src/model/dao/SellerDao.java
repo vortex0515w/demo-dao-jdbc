@@ -2,7 +2,7 @@ package model.dao;
 
 import java.util.List;
 
-public interface Seller {
+public interface SellerDao {
 
     void insert(model.entities.Seller obj);
     void update(model.entities.Seller obj);
